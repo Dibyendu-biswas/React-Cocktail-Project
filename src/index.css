@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+/*************************** navbar ***************************/
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: rgba(54, 50, 50, 0.892);
+  font-size: 1.6rem;
+  color: white;
+  text-transform: capitalize;
+
+}
+
+a {
+  text-decoration: none;
+  padding: 2rem;
+  font-size: 1.4rem;
+  color: rgb(255, 251, 251);
+  transition: all 0.3s;
+  text-transform: capitalize;
+
+}
+
+a:hover {
+  color: crimson;
+}
+
+nav h2 {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/******************** Search form ***************************/
+.searchForm {
+  margin-bottom: 6rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.form-input {
+  width: 250px;
+  font-size: 1rem;
+  border-radius: 7px 0 0 8px;
+  padding: 0.2rem 1rem;
+  outline: none;
+  letter-spacing: 2px;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0 5px 5px 0;
+  letter-spacing: 1px;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  color: black;
+}
+
+/******************** Landing page***************************/
+.cocktailList {
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.cocktailCard {
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: var(--borderRadius);
+
+
+}
+
+.cocktailCard:hover {
+  box-shadow: var(--shadow-4);
+}
+
+.cocktailCard img {
+  height: 15rem;
+  border-top-left-radius: var(--borderRadius);
+  border-top-right-radius: var(--borderRadius);
+}
+
+.cocktailCard .footer {
+  padding: 1.5rem;
+
+}
+
+.cocktailCard .footer h4,
+h5 {
+  margin-bottom: 0.5rem;
+}
+
+.cocktailCard .footer h4,
+h5 {
+  font-weight: 700;
+}
+
+.cocktailCard .footer p {
+  margin-bottom: 1rem;
+  color: var(--grey-500);
+}
+
+/* about page */
+.about {
+  width: 100%;
+  min-height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.about h3{
+  font-size: 2rem;
+  margin-bottom:5rem ;
+}
+.about p {
+  width: 1000px;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+/* .single page cocktail*/
+header{
+  text-align: center;
+  margin: 1rem;
+}
+.btn :hover{
+  color: black;
+}
+header h3{
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.data{
+  display: grid;
+  grid-template-columns: auto 2fr;
+  gap: 2rem;
+  margin: 2rem;
+}
+.data .img{
+  width: 450px;
+  height: 450px;
+  border-radius: 15px;
+}
+.data p{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: rgb(246, 37, 37);
+  padding: 1rem;
+}
+ span{
+  color: white;
+}
+
+/* signup  */
+
+.signup{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  
+}
+.signup h2{
+margin-bottom: 2rem;
+font-size: 3rem;
+text-transform: capitalize;
+}
+.signup form{
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.form_item{
+  margin: 2rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+input{
+  font-size: 1rem;
+  padding:0.3rem 1rem ;
+  text-transform: capitalize;
+  outline: none;
+  border-radius: 8px;
+}
+.from_submit{
+  cursor: pointer;
+  padding: 0.3rem 2rem;
+  border-radius: 8px;
+  outline: none;
+  background-color: rgb(255, 3, 53);
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  transition: all 0.3s;
+}
+.from_submit:hover{
+  color: black;
+}
