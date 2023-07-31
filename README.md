@@ -3,8 +3,6 @@
 
 <h2>Project Details :</h2>
 <p>This is a library of multiple basic projects based on HTML, CSS & Vanilla Javascript .i use React as a framework </p>
-<p>Use axios to fetch data </p>
-<p>Use reducer and context.js for store management and for authentication i use AuthO </p>
 
 <li>Project Live Link : All the live link available in the Respecttive Repo</li>
 <h2>Completed Projects -</h2>
@@ -30,9 +28,8 @@
 <p>9.State Management</p>
 <p>10.Api Fetching</p>
 <p>11.Data management</p>
-<p>12.Liabery Management</p>
-<p>13.Error Handelling</p>
-<p>14.Authentication</p>
-<p>15.Github & Vercel utilisation</p>
+<p>12.Error Handelling</p>
+<p>13.Authentication</p>
+<p>14.Github & Vercel utilisation</p>
 
 <h2>- Developed by Dibyendu | CoderX Community | Send Message to WhatsApp</h2>
